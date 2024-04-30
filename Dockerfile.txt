@@ -1,0 +1,11 @@
+
+FROM openjdk:11
+
+
+WORKDIR /app
+
+
+COPY target/start.jar /app
+
+
+CMD ["java", "-jar", "my-java-app.jar"]

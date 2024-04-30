@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Neo4j</title>
+</head>
+<body>
+    <h1>Plane information</h1>
+    <p>Code: <span th:text="${node.code}"></span></p>
+    <p>Name: <span th:text="${node.name}"></span></p>
+    <p>Country: <span th:text="${node.country}"></span></p>
+    <p>Last Check-up Date: <span th:text="${node.lastCheckUpDate}"></span></p>
+</body>
+</html>
